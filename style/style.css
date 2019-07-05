@@ -54,9 +54,12 @@ nav {
   margin: 0 auto;
   width: 980px;
 }
+.shop {
+  padding: 8px 0 0 0;
+}
 .links ul {
   display: inline-block;
-  line-height: 15px;
+  line-height: 12px;
 }
 .links ul li {
   display: inline-block;
@@ -69,5 +72,6 @@ nav {
   text-decoration: none;
 }
 #country {
+  padding-top: 0.5em;
   border-right: 2px solid white;
 }
