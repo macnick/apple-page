@@ -33,16 +33,11 @@ aside img {
   height: 100%;
   object-fit: cover;
 }
-#one {
-  background: url("../img/promo_iphone5s.jpg") 0 0 no-repeat;
-  /* background-size: auto 75%; */
-  height: 200px;
-}
 footer {
   display: flex;
   justify-content: space-between;
   margin: 10px 22px;
-  font-size: 0.833em;
+  font-size: 0.843em;
   color: #333;
 }
 nav {
@@ -53,9 +48,15 @@ nav {
   width: 80%;
   background-color: aquamarine;
 }
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+  width: 980px;
+}
 .links ul {
-  display: inline;
-  line-height: 12px;
+  display: inline-block;
+  line-height: 15px;
 }
 .links ul li {
   display: inline-block;
@@ -63,11 +64,10 @@ nav {
   padding-right: 0.6em;
   border-right: 1px solid #ccc;
 }
-#country {
-  background-color: #000099;
-  border: 0 solid white;
+.wrapper a {
+  color: #08c;
+  text-decoration: none;
 }
-.left {
-  float: left;
-  clear: both;
+#country {
+  border-right: 2px solid white;
 }
