@@ -20,4 +20,4 @@ Used:
 
 ## The Website
 
-Follow the link to acess to the Website: https://macnick.github.io/NYT-article/
+Follow the link to acess to the Website: https://macnick.github.io/apple-page/
